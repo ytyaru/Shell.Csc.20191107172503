@@ -1,6 +1,0 @@
-Run() {
-    . "$(cd $(dirname $0); pwd)/csbuild.sh"
-    BuildAndRun $@
-}
-Run $@
-
